@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # projeto_final_prog
 
 Biblioteca.
