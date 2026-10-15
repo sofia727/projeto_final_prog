@@ -10,7 +10,7 @@ public class Aluguel {
     private LocalDate dtAluguel;
     private LocalDate dtDevolucao;
 
-    // construtor
+   
     public Aluguel() {
     }
 
@@ -23,7 +23,7 @@ public class Aluguel {
         this.dtDevolucao = dtDevolucao;
     }
 
-    // getters e setters
+  
     public int getCdAluguel() {
         return cdAluguel;
     }

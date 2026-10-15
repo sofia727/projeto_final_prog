@@ -8,7 +8,7 @@ public class Biblioteca {
     private ArrayList<Livro> livros = new ArrayList<>();
     private ArrayList<Aluguel> alugueis = new ArrayList<>();
 
-    // crud cliente
+    
     public void adicionarCliente(Cliente cliente) {
         clientes.add(cliente);
     }

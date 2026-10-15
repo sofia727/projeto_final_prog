@@ -5,8 +5,8 @@ public class Cliente extends Pessoa{
 	private int cdCliente;
 	
 
-    public Cliente(int cdCliente, String nome, String email, String telefone) {
-        super();
+    public Cliente(String nome, String email, String telefone, int cdCliente) {
+        super(nome, email, telefone);
         this.cdCliente = cdCliente;
         
     }
@@ -16,7 +16,6 @@ public class Cliente extends Pessoa{
     }
     
         
-
     public int getCdCliente() {
 		return cdCliente;
 	}
